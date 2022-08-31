@@ -1,0 +1,6 @@
+mediapipe
+opencv-python
+streamlit
+numpy
+ffmpeg-python
+uuid
