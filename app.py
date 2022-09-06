@@ -18,7 +18,7 @@ for i in str(a):
 
 data = {'alphbate': my_str, 'number': my_number}
 df = pd.DataFrame.from_dict(data)
-res = any(chr.isdigit() for chr in str(a)
+res = any(chr.isdigit() for chr in str(a))
 if st.button('Display Number'):
     if res:
         st.write("Enter a string")
